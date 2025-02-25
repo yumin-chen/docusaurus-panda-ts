@@ -5,7 +5,8 @@
   "scripts": {
     "prepare": "panda codegen",
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
+    "start": "tinacms dev -c 'docusaurus start'",
+    "dev": "tinacms dev -c 'docusaurus start'",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
@@ -22,13 +23,16 @@
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "tinacms": "^2.7.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.4.0",
     "@docusaurus/tsconfig": "3.4.0",
     "@docusaurus/types": "3.4.0",
     "@pandacss/dev": "workspace:*",
+    "@tinacms/cli": "^1.9.0",
+    "@types/node": "^22.13.5",
     "typescript": "^5.7.3"
   },
   "browserslist": {
