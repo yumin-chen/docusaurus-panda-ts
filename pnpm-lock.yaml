@@ -9,10 +9,10 @@ importers:
   .:
     dependencies:
       '@docusaurus/core':
-        specifier: 3.7.0
+        specifier: latest
         version: 3.7.0(@mdx-js/react@3.1.0(@types/react@19.0.10)(react@18.3.1))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
       '@docusaurus/preset-classic':
-        specifier: 3.7.0
+        specifier: latest
         version: 3.7.0(@algolia/client-search@5.20.3)(@mdx-js/react@3.1.0(@types/react@19.0.10)(react@18.3.1))(@types/react@19.0.10)(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.17.3)(typescript@5.7.3)
       '@mdx-js/react':
         specifier: latest
@@ -28,13 +28,13 @@ importers:
         version: 18.3.1(react@18.3.1)
     devDependencies:
       '@docusaurus/module-type-aliases':
-        specifier: 3.7.0
+        specifier: latest
         version: 3.7.0(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@docusaurus/tsconfig':
-        specifier: 3.7.0
+        specifier: latest
         version: 3.7.0
       '@docusaurus/types':
-        specifier: 3.7.0
+        specifier: latest
         version: 3.7.0(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@pandacss/dev':
         specifier: latest
