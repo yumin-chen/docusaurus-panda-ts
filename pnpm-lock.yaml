@@ -40,7 +40,7 @@ importers:
         specifier: latest
         version: 0.53.0(typescript@5.7.3)
       typescript:
-        specifier: ^5.7.3
+        specifier: latest
         version: 5.7.3
 
 packages:
