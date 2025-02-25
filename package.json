@@ -20,7 +20,7 @@
     "@docusaurus/preset-classic": "latest",
     "clsx": "^2.0.0",
     "@mdx-js/react": "latest",
-    "prism-react-renderer": "^2.3.0",
+    "prism-react-renderer": "latest",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
