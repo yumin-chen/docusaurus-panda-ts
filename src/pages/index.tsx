@@ -12,7 +12,8 @@ function HomepageHeader() {
   return (
     <header
       className={css({
-        bg: 'green.500',
+        // bg: 'green.500',
+        background: "red.500",
         padding: { base: '2rem', lg: '4rem 0' },
         textAlign: 'center',
         pos: 'relative',
@@ -23,7 +24,7 @@ function HomepageHeader() {
         <Heading
           as="h1"
           className={css({
-            background: '#ff0000',
+            color: '#ff0000',
             textStyle: '8xl!',
           })}
         >
