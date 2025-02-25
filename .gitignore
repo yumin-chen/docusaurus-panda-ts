@@ -1,8 +1,12 @@
-# Dependencies
-/node_modules
+# Sources
+src
 
-# Production
-/build
+# Config files
+babel.config.js
+docusaurus.config.ts
+tsconfig.json
+sidebar.ts
+
 
 # Generated files
 .docusaurus
