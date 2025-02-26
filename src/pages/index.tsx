@@ -1,6 +1,6 @@
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import HomepageFeatures from "@site/src/components/HomepageFeatures";
+import HomepageFeatures from "../components/HomepageFeatures";
 import Heading from "@theme/Heading";
 import Layout from "@theme/Layout";
 
@@ -22,10 +22,7 @@ function HomepageHeader() {
       <div className="container">
         <Heading
           as="h1"
-          className={css({
-            background: "#ff0000",
-            textStyle: "8xl!",
-          })}
+          className={css({ background: "#ff0000", textStyle: "8xl!" })}
         >
           {siteConfig.title}
         </Heading>
