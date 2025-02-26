@@ -2,6 +2,8 @@ import React from "react";
 import { defineConfig, TextField } from "tinacms";
 import { ReferenceField } from "tinacms";
 import { docusaurusDate, titleFromSlug } from "../utils/cms-formatter";
+import { MDXTemplates } from "@site/src/theme/template";
+import { title } from "process";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch = process.env.VERCEL_GIT_COMMIT_REF || process.env.HEAD || "main";
@@ -144,7 +146,7 @@ const PostCollection = {
       name: "body",
       label: "Body",
       isBody: true,
-      // templates: [...MDXTemplates],
+      templates: [...MDXTemplates],
     },
   ],
 };
@@ -175,7 +177,7 @@ const DocsCollection = {
       name: "body",
       label: "Body",
       isBody: true,
-      // templates: [...MDXTemplates],
+      templates: [...MDXTemplates],
     },
   ],
 };
@@ -666,7 +668,7 @@ const PagesCollection = {
       name: "body",
       label: "Body",
       isBody: true,
-      // templates: [...MDXTemplates],
+      templates: [...MDXTemplates],
     },
   ],
 };
