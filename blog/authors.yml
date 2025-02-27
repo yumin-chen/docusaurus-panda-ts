@@ -1,3 +1,14 @@
+yumchen:
+  name: Yumin Chen
+  title: Software Engineer
+  url: https://github.com/yumin-chen
+  image_url: https://github.com/yumin-chen.png
+  page: true
+  socials:
+    x: chen_so_yum
+    github: yumin-chen
+    linkedin: chenyumin
+
 yangshun:
   name: Yangshun Tay
   title: Front End Engineer @ Facebook
