@@ -23,14 +23,14 @@
     "prism-react-renderer": "latest",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "tinacms": "^2.7.2"
+    "tinacms": "latest"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "latest",
     "@docusaurus/tsconfig": "latest",
     "@docusaurus/types": "latest",
     "@pandacss/dev": "latest",
-    "@tinacms/cli": "^1.9.2",
+    "@tinacms/cli": "latest",
     "@types/node": "^22.13.9",
     "prettier": "latest",
     "title": "^4.0.1",
